@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!--初始化时需要执行的操作-->
+
+    <!--其他 -->
+
+    <resourceCopies>
+        <log text="Copying AssimpPlugin runtime files to staging" />
+        <isArch arch="armeabi-v7a">
+            <copyFile src="$S(PluginDir)/Android/armeabi-v7a/libassimp.so" 
+            dst="$S(BuildDir)/libs/armeabi-v7a/libassimp.so" />
+        </isArch>>
+    </resourceCopies>
+
+
+</root>
